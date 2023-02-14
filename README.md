@@ -38,3 +38,13 @@ output: true
 
 ***
 
+4. Write a function that computes the running total of a list.
+
+```go
+
+inputs: arr := []int{2, 4, 6, 8, 20}
+
+output: [2, 6, 12, 20, 40]
+
+
+```
