@@ -25,3 +25,15 @@ output: [4, 2, 5]
 ```
 
 ***
+
+3. Write a function that checks whether an element occurs in a list.
+
+```go
+
+inputs: arr := []int{10, 20, 30, 40, 50, 65, 3}, target := 30
+
+output: true
+
+```
+
+***
