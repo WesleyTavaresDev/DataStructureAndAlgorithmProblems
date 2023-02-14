@@ -5,10 +5,10 @@ package list
 func LargestElement(arr []int) int {
 	largest := 0
 
-	for i := 0; i < len(arr); i++ {
+	for _, number := range arr {
 
-		if arr[i] > largest {
-			largest = arr[i]
+		if number > largest {
+			largest = number
 		}
 	}
 
