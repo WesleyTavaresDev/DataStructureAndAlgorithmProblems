@@ -11,3 +11,15 @@ func TestLargest(t *testing.T) {
 		t.Errorf("result %d, waiting %d", returned, want)
 	}
 }
+
+func TestLargestFail(t *testing.T) {
+	shouldReturn9 := [...]int{0, 0, 1, 2, 3, 9, 8, 6}
+
+	want := 3
+
+	returned := LargestElement(shouldReturn9[:])
+
+	if returned == want {
+		t.Errorf("result %d, waiting %d", returned, want)
+	}
+}
