@@ -1,0 +1,5 @@
+package selection
+
+func SelectionSort() {
+
+}
