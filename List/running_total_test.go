@@ -12,7 +12,7 @@ func TestTotal(t *testing.T) {
 	total := RunTotal(elements)
 	want := []int{2, 6, 12, 20, 40}
 
-	if reflect.DeepEqual(want, total) {
+	if !reflect.DeepEqual(want, total) {
 		t.Errorf("Wanting %d, received %d", want, total)
 	}
 }
@@ -23,7 +23,7 @@ func TestTotalNegative(t *testing.T) {
 	total := RunTotal(elements)
 	want := []int{-2, -6, -12, -20, 0}
 
-	if reflect.DeepEqual(want, total) {
+	if !reflect.DeepEqual(want, total) {
 		t.Errorf("Wanting %d, received %d", want, total)
 	}
 }
