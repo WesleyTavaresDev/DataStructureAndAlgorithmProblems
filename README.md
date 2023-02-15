@@ -51,8 +51,16 @@ output: [2, 6, 12, 20, 40]
 
 ## Sorting
 
- **1.Selection Sort**
+1. Selection Sort
 
         Iterate a list of elements separing it on two portions: sorted and unsorted. 
         Traversing, comparing and swapping the elements
+
+***
+
+2. Bubble Sort
+
+        Bubble sort is a sorting algorithm that compares two adjacent elements and 
+        swaps them until they are in the intended order.
+
 ***
