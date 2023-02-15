@@ -9,7 +9,7 @@ import (
 func TestSelectionAscending(t *testing.T) {
 
 	arr := []int{5, 4, 3, 2, 1, 0}
-	selection.SelectionSort(arr)
+	selection.SelectionSort(arr, selection.Ascending)
 	t.Log(arr)
 
 	want := []int{0, 1, 2, 3, 4, 5}
@@ -21,7 +21,7 @@ func TestSelectionAscending(t *testing.T) {
 
 func TestSelectionDecreasing(t *testing.T) {
 	arr := []int{0, 1, 2, 3, 4, 5}
-	selection.SelectionSort(arr)
+	selection.SelectionSort(arr, selection.Decreasing)
 	t.Log(arr)
 
 	want := []int{5, 4, 3, 2, 1, 0}
