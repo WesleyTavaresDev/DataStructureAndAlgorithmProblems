@@ -64,3 +64,11 @@ output: [2, 6, 12, 20, 40]
         swaps them until they are in the intended order.
 
 ***
+
+3. Insertion Sort
+
+        Insertion sort  works similar to the way you sort playing cards in your hands. 
+        The array is splited into a sorted and an unsorted part. Values from the unsorted part 
+        are picked and placed at the correct position in the sorted part.
+
+***
