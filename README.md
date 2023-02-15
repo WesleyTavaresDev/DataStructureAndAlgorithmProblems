@@ -56,13 +56,17 @@ output: [2, 6, 12, 20, 40]
         Iterate a list of elements separing it on two portions: sorted and unsorted. 
         Traversing, comparing and swapping the elements
 
+<p align="center"><img src="https://github.com/WesleyTavaresDev/DataStructureAndAlgorithmProblems/blob/main/assets/Selection-Sort-example.gif" align="center"/></p>
+
 ***
 
 2. Bubble Sort
 
         Bubble sort is a sorting algorithm that compares two adjacent elements and 
         swaps them until they are in the intended order.
-
+       
+<p align="center"><img src="https://github.com/WesleyTavaresDev/DataStructureAndAlgorithmProblems/blob/main/assets/Bubble-sort-example.gif"/>
+</p>
 ***
 
 3. Insertion Sort
@@ -70,5 +74,7 @@ output: [2, 6, 12, 20, 40]
         Insertion sort  works similar to the way you sort playing cards in your hands. 
         The array is splited into a sorted and an unsorted part. Values from the unsorted part 
         are picked and placed at the correct position in the sorted part.
+        
+<p align="center"><img src="https://github.com/WesleyTavaresDev/DataStructureAndAlgorithmProblems/blob/main/assets/Insertion-sort-example.gif"/></p>
 
 ***
