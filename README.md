@@ -67,6 +67,7 @@ output: [2, 6, 12, 20, 40]
        
 <p align="center"><img src="https://github.com/WesleyTavaresDev/DataStructureAndAlgorithmProblems/blob/main/assets/Bubble-sort-example.gif"/>
 </p>
+
 ***
 
 3. Insertion Sort

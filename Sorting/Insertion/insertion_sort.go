@@ -1,6 +1,12 @@
 package insertion
 
-func Insertion(elements []int) []int {
+import "errors"
+
+func Insertion(elements []int) ([]int, error) {
+
+	if len(elements) <= 0 {
+		return elements, errors.New("Empty list")
+	}
 
 	for i := 1; i < len(elements); i++ {
 		for j := i; j > 0; j-- {
@@ -10,5 +16,5 @@ func Insertion(elements []int) []int {
 		}
 	}
 
-	return elements
+	return elements, nil
 }
