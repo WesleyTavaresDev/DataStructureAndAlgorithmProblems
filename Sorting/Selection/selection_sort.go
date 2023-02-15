@@ -1,5 +1,6 @@
 package selection
 
-func SelectionSort() {
+func SelectionSort(elements []int) []int {
 
+	return elements
 }
