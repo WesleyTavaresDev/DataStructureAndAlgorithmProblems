@@ -49,6 +49,8 @@ output: [2, 6, 12, 20, 40]
 
 ```
 
+**Check it out-> <https://visualgo.net/en>**
+
 ## Sorting
 
 1. Selection Sort

@@ -1,46 +1,38 @@
 package merge
 
-func merge(elements []int, left int, middle int, right int) {
+func MergeSort(elements []int) []int {
+	if len(elements) < 2 {
+		return elements
+	}
 
-	helper := make([]int, len(elements))
+	first := MergeSort(elements[:len(elements)/2])
+	last := MergeSort(elements[len(elements)/2:])
 
-	copy(helper, elements)
+	return merge(first, last)
+}
 
-	i := left
-	j := middle + 1
-	k := left
+func merge(left, right []int) []int {
+	merged := []int{}
 
-	for ; i <= middle && j <= right; k++ {
-		if helper[i] <= helper[j] {
-			elements[k] = helper[i]
+	i, j := 0, 0
+
+	for i < len(left) && j < len(right) {
+		if left[i] < right[j] {
+			merged = append(merged, left[i])
 			i++
 		} else {
-			elements[k] = helper[j]
+			merged = append(merged, right[j])
 			j++
 		}
 	}
 
-	for ; i <= middle; i++ {
-		elements[k] = helper[i]
-		k++
+	for ; i < len(left); i++ {
+		merged = append(merged, left[i])
 	}
 
-	for ; j <= right; j++ {
-		elements[k] = helper[j]
-		k++
+	for ; j < len(right); j++ {
+		merged = append(merged, right[j])
 	}
-}
 
-func MergeSort(elements []int, left int, right int) {
-
-	if left >= right {
-		return
-	} else {
-
-		middle := (left + right) / 2
-		MergeSort(elements, left, middle)
-		MergeSort(elements, middle+1, right)
-
-		merge(elements, left, middle, right-1)
-	}
+	return merged
 }
