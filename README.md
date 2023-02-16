@@ -82,5 +82,10 @@ output: [2, 6, 12, 20, 40]
 
 4. Merge Sort 
 
-        Merge sort virtualy breaks an array recursively in halves until it cannot be further divided (if our list has one element left), then Merge.
+        Merge sort virtually breaks an array recursively in halves
+        until it cannot be further divided, then Merge.
         Merge takes two small pieces to our array sorting and merging them until make a large one.
+        
+<p align="center"><img src="https://github.com/WesleyTavaresDev/DataStructureAndAlgorithmProblems/blob/main/assets/Merge-sort-example.gif"/></p>        
+
+***
