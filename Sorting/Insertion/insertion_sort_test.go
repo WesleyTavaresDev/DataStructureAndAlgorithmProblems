@@ -20,7 +20,7 @@ func TestInsertionSort(t *testing.T) {
 }
 
 func TestInsertSortWithEmptyList(t *testing.T) {
-	arr := make([]int, 0, 0)
+	arr := make([]int, 0)
 
 	if arr, e := insertion.Insertion(arr); e == nil {
 		t.Errorf("%d is an empty list", arr)

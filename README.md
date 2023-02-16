@@ -79,3 +79,8 @@ output: [2, 6, 12, 20, 40]
 <p align="center"><img src="https://github.com/WesleyTavaresDev/DataStructureAndAlgorithmProblems/blob/main/assets/Insertion-sort-example.gif"/></p>
 
 ***
+
+4. Merge Sort 
+
+        Merge sort virtualy breaks an array recursively in halves until it cannot be further divided (if our list has one element left), then Merge.
+        Merge takes two small pieces to our array sorting and merging them until make a large one.
