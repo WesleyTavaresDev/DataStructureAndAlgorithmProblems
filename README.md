@@ -96,3 +96,5 @@ output: [2, 6, 12, 20, 40]
 
         QuickSort is a Divide and Conquer algorithm. 
         It picks an element as a pivot and partitions the given array around the picked pivot.
+        
+<p align="center"><img src="https://github.com/WesleyTavaresDev/DataStructureAndAlgorithmProblems/blob/main/assets/Quicksort-example.gif"/></p>   
