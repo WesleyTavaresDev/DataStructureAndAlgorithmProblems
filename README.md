@@ -91,3 +91,8 @@ output: [2, 6, 12, 20, 40]
 <p align="center"><img src="https://github.com/WesleyTavaresDev/DataStructureAndAlgorithmProblems/blob/main/assets/Merge-sort-example.gif"/></p>        
 
 ***
+
+4. Quick Sort
+
+        QuickSort is a Divide and Conquer algorithm. 
+        It picks an element as a pivot and partitions the given array around the picked pivot.
