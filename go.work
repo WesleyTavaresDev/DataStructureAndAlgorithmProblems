@@ -5,4 +5,5 @@ use (
 	./Sorting
 	./Sorting/Bubble
 	./Sorting/Selection
+	./Sorting/QuickSort
 )

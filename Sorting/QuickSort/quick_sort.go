@@ -5,6 +5,6 @@ func partition(arr []int, low, high int) int {
 	return 0
 }
 
-func quicksort(arr []int, low, high int) {
-
+func Quicksort(arr []int, low, high int) {
+	partition(arr, low, high)
 }
