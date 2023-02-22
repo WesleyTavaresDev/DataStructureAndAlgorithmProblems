@@ -98,3 +98,10 @@ output: [2, 6, 12, 20, 40]
         It picks an element as a pivot and partitions the given array around the picked pivot.
         
 <p align="center"><img src="https://github.com/WesleyTavaresDev/DataStructureAndAlgorithmProblems/blob/main/assets/Quicksort-example.gif"/></p>   
+
+## Searching
+
+1. Linear Search
+        This algorithm works by sequentially iterating through the whole array or list from one end until the target element is found. 
+        If the element is found, it returns its index, else -1.
+<p align="center"><img src="https://github.com/WesleyTavaresDev/DataStructureAndAlgorithmProblems/blob/main/assets/Linear-Search-example.gif" /></p>
