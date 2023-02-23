@@ -102,6 +102,17 @@ output: [2, 6, 12, 20, 40]
 ## Searching
 
 1. Linear Search
+
+***
         This algorithm works by sequentially iterating through the whole array or list from one end until the target element is found. 
         If the element is found, it returns its index, else -1.
 <p align="center"><img src="https://github.com/WesleyTavaresDev/DataStructureAndAlgorithmProblems/blob/main/assets/Linear-Search-example.gif" /></p>
+
+***
+2. Binary Search
+
+***
+        Binary Search is a searching algorithm used in a sorted array by repeatedly dividing the search interval in half. 
+        The idea of binary search is to use the information that the array is sorted and reduce the time complexity to 
+        O(Log n).
+<p align="center"><img src="https://github.com/WesleyTavaresDev/DataStructureAndAlgorithmProblems/blob/main/assets/Binary-Search-example.gif" /></p>
