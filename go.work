@@ -4,6 +4,7 @@ use (
 	./List
 	./Searching/BinarySearch
 	./Searching/LinearSeach
+	./Searching/TernarySearch
 	./Sorting
 	./Sorting/Bubble
 	./Sorting/QuickSort
